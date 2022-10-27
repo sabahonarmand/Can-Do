@@ -1,0 +1,40 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
+
+.notFound {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.notFoundImageContent {
+    width: 28rem;
+    margin-left: 7rem;
+}
+
+.notFoundImage {
+    width: inherit;
+}
+
+.notFoundTextContent {
+    width: 35rem;
+    margin-top: 6rem;
+}
+
+.notFoundHead {
+    color: #3f2b96;
+    font-size: xxx-large;
+}
+
+.notFoundText {
+    color: #3f2b96;
+    font-weight: 600;
+}

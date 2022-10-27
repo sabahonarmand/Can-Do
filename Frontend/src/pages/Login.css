@@ -1,0 +1,230 @@
+.app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.shape:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+    position: absolute;
+    /* top: -200px;
+    left: -400px; */
+    top: -25%;
+    left: -5%;
+    /* opacity: .4; */
+    /* z-index: -1; */
+    border-radius: 147% 163% 102% 138% / 145% 79% 1% 237%;
+    animation: wave 5s ease-in-out infinite;
+    /* border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
+    animation: wave 5s ease-in-out infinite; */
+}
+
+/* .shape:nth-of-type(2) {
+    width: 220px;
+    height: 170px;
+    background: #E0B0FF;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 62% 110% 74% 75% / 57% 79% 0% 117%;
+    opacity: .9;
+    animation: wave 5s ease-in-out infinite;
+  } */
+
+.shape:nth-of-type(3) {
+    width: 500px;
+    height: 500px;
+    background: #E0B0FF;
+    position: absolute;
+    bottom: -25%;
+    right: -5%;
+    border-radius: 147% 163% 102% 138% / 145% 79% 1% 237%;
+    animation: wave 10s ease-in-out infinite;
+}
+
+/* .shape:nth-of-type(4) {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+    position: absolute;
+    bottom: -25%;
+    left: -5%;
+    border-radius: 66% 18% 37% 63% / 57% 32% 69% 43%;
+    animation: wave 5s ease-in-out infinite;
+  }
+  
+  .shape:nth-of-type(5) {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, #a8c0ff, #3f2b96);
+    position: absolute;
+    top: -25%;
+    right: -5%;
+    border-radius: 66% 18% 37% 63% / 57% 32% 69% 43%;
+    animation: wave 5s ease-in-out infinite;
+  } */
+
+.login {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginBox {
+    background-color: white;
+    width: 65rem;
+    height: 34rem;
+    margin-top: 70px;
+    /* /* bottom: 57px;
+    right: 54px; */
+    position: absolute;
+    border-radius: 43px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginContent {
+    position: absolute;
+    right: 0%;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usernameInput {
+
+    border-radius: 17px;
+    border: 1px solid #E9E9E9;
+    background-color: #ffffff;
+    border-color: #b7b7b9;
+    height: 27px;
+    width: 21rem;
+    padding: 0.8rem;
+    outline: none;
+    transition: all 0.3s;
+    color: rgb(22, 21, 21);
+    /* font-weight: 400; */
+}
+
+.label {
+    position: absolute;
+    left: 121px;
+    bottom: 7px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #98979b;
+    font-weight: 500;
+}
+
+/* .label::before {
+    content: "";
+    height: 5px;
+    background: #272530;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: -1;
+  } */
+
+.usernameInput:focus {
+    border: 2px solid #3f2b96;
+}
+
+.usernameInput:focus+.label,
+.filled {
+    /* top: 12px; */
+    bottom: 42px;
+    left: 116px;
+    font-size: 14px;
+    color: #7e4ccb;
+    font-size: 20px;
+}
+
+/* .usernameInput::placeholder {
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.usernameInput:focus::placeholder {
+    opacity: 1;
+} */
+
+
+.loginImageContent {
+    margin-top: 70px;
+    width: 33rem;
+}
+
+.loginImage {
+    width: inherit;
+}
+
+.welcome {
+    font-weight: 500;
+    /* margin-top: 6rem; */
+    margin-bottom: 5px;
+    font-size: large;
+    color: #7e4ccb;
+}
+
+.signInParagragh {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #a19ea3;
+    font-weight: 700;
+}
+
+.loginButton {
+    height: 42px;
+    font-weight: 700;
+    color: #fafafa;
+    background: linear-gradient(to bottom, #E0B0FF, #3f2b96);
+    text-align: center;
+    margin-top: 31px;
+    border: none;
+    width: 22rem;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
+    }
+
+    50% {
+        border-radius: 26% 74% 51% 49% / 22% 53% 47% 78%;
+    }
+}
+
+.Forgetpswd {
+    width: 22rem;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fpswd {
+    font-size: smaller;
+    color: #ffa9dc;
+    font-weight: 500;
+}
+
+.notHaveAccount {
+    margin-top: 15px;
+    font-size: smaller;
+}

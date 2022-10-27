@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoimageContent {
+    width: 56px;
+    margin-left: 3rem;
+    margin-top: 18px;
+}
+
+/* .logoimage {
+    margin-top: 0;
+    width: 46px;
+} */
+
+.CanDo {
+    font-family: Great Vibes;
+    margin-top: 0;
+    font-size: 18px;
+    color: #3f2b96;
+}
+
+.menuNav {
+    width: 100%;
+    padding-inline-start: 13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuLink {
+    padding-right: 92px;
+    font-size: large;
+    font-weight: 600;
+    color: #3f2b96;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.currentPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.logout {
+    padding-left: 9rem;
+}
+
+.logout a {
+    color: #9999F7;
+}
+
+.logoutImage {
+    width: 1.5rem;
+}

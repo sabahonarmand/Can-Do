@@ -1,0 +1,236 @@
+.today {
+    overflow: visible;
+}
+
+.borderTodayPage {
+    width: 102px;
+    position: absolute;
+    top: 89px;
+    right: 31.25rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.todayTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 7rem;
+}
+
+.emptyStateImage {
+    width: 26rem;
+}
+
+.emptyError {
+    font-weight: 700;
+    color: #3f2b96;
+    font-size: larger;
+}
+
+.TodayTaskImageContent {
+    width: 19rem;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+.TodayTaskImage {
+    width: inherit;
+}
+
+.todaytask {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-left: 9rem;
+}
+
+.day {
+    font-family: Great Vibes;
+    font-size: 4rem;
+    color: #3f2b96;
+    font-weight: 600;
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: #3f2b96;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.taskItems {
+    list-style-type: none;
+    margin-left: 6rem;
+}
+
+.item {
+    border-radius: 20px;
+    padding: 23px 17px;
+    margin-top: 24px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    word-break: break-word;
+    width: 41rem;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.itemContent {
+    display: subgrid;
+
+}
+
+.itemHeader {
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [end] 60px;
+}
+
+.itemHeader p {
+    color: #3f2b96;
+    font-family: Carattere;
+    font-weight: 600;
+    font-size: 17px;
+    justify-self: end;
+    font-style: italic;
+}
+
+.itemHeader h1 {
+    grid-column: line3;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #7e4ccb;
+    font-style: italic;
+    font-size: 32px;
+    justify-self: center;
+}
+
+.itemHeader button {
+    grid-column: end;
+    height: 27px;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: #ffa9dc;
+    width: 100%;
+    font-family: Carattere;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.itemDescription {
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 124px [line3] auto [end] 142px;
+    margin-top: 15px;
+}
+
+.BttnDes {
+    grid-column: line3;
+    border: 1px solid #3f2b96;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color: #ffa9dc;
+    font-style: italic;
+    font-weight: 600;
+    justify-self: center;
+    font-size: 18px;
+    width: 6rem;
+}
+
+.desc {
+    grid-column: line3;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+.descText {
+    font-size: 20px;
+}
+
+.closeBttn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.closeBttn button {
+    width: 3rem;
+    margin-top: 2rem;
+    color: #ffa9dc;
+    background-color: #ffffff;
+}
+
+.borderTitle {
+    grid-column: line3;
+    justify-self: center;
+    width: 12rem;
+    height: 1px;
+    border-width: 0;
+    background-color: #afafaf;
+}
+
+.doneImage {
+    width: 30px;
+    grid-column: line2;
+    cursor: pointer;
+}
+
+.deleteIcon {
+    grid-column: first;
+    cursor: pointer;
+    width: 32px;
+}
+
+.withoutPercentage {
+    grid-column: first;
+    display: flex;
+    flex-direction: row;
+    width: 14rem;
+    height: 32px;
+}
+
+.donepercen {
+    background-color: rgb(27, 218, 10);
+    border-radius: 1rem;
+    width: 36px;
+}
+
+.percen {
+    font-weight: 800;
+    font-size: 15px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.donepercenbox {
+    width: 97px;
+    display: flex;
+    flex-direction: row;
+}
+
+.DoneT {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}

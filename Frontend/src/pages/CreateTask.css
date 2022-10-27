@@ -1,0 +1,173 @@
+/* .app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+} */
+
+.borderCurrentPage {
+    width: 133px;
+    position: absolute;
+    top: 89px;
+    right: 21rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.CreateTaskImageContent {
+    width: 39rem;
+}
+
+.CreateTaskImage {
+    width: inherit;
+}
+
+.createTask {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createTaskBox {
+    width: 75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* position: absolute; */
+}
+
+
+.task {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskTitle {
+    border: 0;
+    border-bottom: 5px #9999F7 solid;
+    display: block;
+    background: transparent;
+    outline: none;
+    text-align: center;
+    font-size: initial;
+}
+
+.taskTitle::placeholder {
+    color: #ffa9dc;
+    font-family: Monotype Corsiva;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.submitButton {
+    height: 42px;
+    font-weight: 700;
+    color: #fafafa;
+    background: linear-gradient(to bottom, #E0B0FF, #3f2b96);
+    text-align: center;
+    margin-top: 2rem;
+    border: none;
+    width: 11rem;
+    border-radius: 17px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* .TimeInput {
+    background-color: #fbfbfb;
+    border-radius: 1rem;
+    border: 3px solid #9999F7;
+    border-bottom-style: groove;
+    cursor: pointer;
+    outline: none;
+} */
+
+.ant-picker {
+    box-sizing: border-box;
+    width: 6rem;
+    margin-left: 24px;
+    color: rgb(1 1 1 / 85%);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    padding: 4px 5px 4px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background: #fff;
+    border: 3px solid #9999f7;
+    border-radius: 9px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.ant-picker-time-panel-column>li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+    background: #ffa9dc;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    border: none;
+    background: #ffa9dc;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.routin {
+    display: flex;
+}
+
+.checkIcon {
+    margin-top: 61px;
+    cursor: pointer;
+}
+
+.datePicker {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background: white;
+    border: 3px solid #9999F7;
+    border-radius: 1rem;
+    outline: none;
+    width: 9rem;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+    border-radius: 0.3rem;
+    background-color: #3f2b96;
+    color: #fff;
+}
+
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+    font-weight: bold;
+    background-color: #ffa9dc;
+    border-radius: 0.3rem;
+}

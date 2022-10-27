@@ -1,0 +1,79 @@
+.borderWeekPage {
+    width: 6rem;
+    position: absolute;
+    top: 89px;
+    right: 39rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.weekTasksImageContent {
+    width: 27rem;
+    position: fixed;
+    bottom: -15%;
+    right: -2%;
+}
+
+.WeekTasksImage {
+    width: inherit;
+}
+
+.dateTask {
+    grid-column: end;
+    justify-self: end;
+    font-family: Great Vibes;
+    color: #3f2b96;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.diagramBttn {
+    background: transparent;
+    top: 134px;
+    right: 67px;
+    width: 8rem;
+    border-radius: 1rem;
+    position: absolute;
+    font-weight: 700;
+    color: #3f2b96;
+    height: 51px;
+    cursor: pointer;
+}
+
+.chartpage {
+    width: 100%;
+}
+
+.TaskChartImageContent {
+    width: 25rem;
+    position: fixed;
+    bottom: 3%;
+    right: 0%;
+}
+
+.TaskChartImage {
+    width: inherit;
+}
+
+.chart {
+    margin-top: 10rem;
+}
+
+.averagebox {
+    position: absolute;
+    top: 18%;
+    right: 8%;
+    display: flex;
+}
+
+.averagebox p {
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #7e4ccb;
+}

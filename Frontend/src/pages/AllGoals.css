@@ -1,0 +1,39 @@
+.borderAllGoalsPage {
+    width: 6rem;
+    position: absolute;
+    top: 89px;
+    right: 66.9rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.AllGoalsImageContent {
+    width: 22rem;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+.AllGoalsImage {
+    width: inherit;
+}
+
+.imageGoalBox {
+    width: 14rem;
+    margin-top: 2rem;
+}
+
+.imageGoal {
+    width: inherit;
+}
+
+.descGoal {
+    grid-column: line3;
+    justify-self: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

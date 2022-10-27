@@ -1,0 +1,71 @@
+.allTasksImageContent {
+    width: 21rem;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+.allTasksImage {
+    width: inherit;
+}
+
+.borderallTaskPage {
+    width: 6rem;
+    position: absolute;
+    top: 89px;
+    right: 49rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.percentbox {
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 44px;
+}
+
+.percentbox p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 19px;
+    /* margin-top: 3px; */
+}
+
+.percent {
+    width: 3.5rem;
+    background-color: #ffa9dc;
+    height: 34px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+}
+
+.percent input {
+    width: 42px;
+    height: 34px;
+    border: none;
+    background-color: #ffa9dc;
+    border-radius: 7px;
+    font-size: 17px;
+    outline: none;
+}
+
+.okBttn {
+    width: 42px;
+    font-size: 15px;
+    color: black;
+    height: 27px;
+    background-color: white;
+    margin-left: 6px;
+    margin-top: 3px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.okBttn:hover {
+    background-color: #9461e2;
+}

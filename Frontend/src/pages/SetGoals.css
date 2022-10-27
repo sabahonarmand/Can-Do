@@ -1,0 +1,96 @@
+.setGoals {
+    overflow: visible;
+}
+
+.borderSetGoalsPage {
+    width: 6rem;
+    position: absolute;
+    top: 89px;
+    right: 58rem;
+    height: 5px;
+    border-width: 0;
+    color: #ffa9dc;
+    background-color: #ffa9dc;
+}
+
+.setGoal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setGoalsBox {
+    /* width: 75rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Goals {
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendarsetGoals {
+    margin-top: 2rem;
+}
+
+.setGoalsImageBox {
+    width: 34rem;
+    margin-left: 1rem;
+}
+
+.setGoalsImage {
+    width: inherit;
+}
+
+.beforeUpload {
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.afterUpload {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 8rem;
+}
+
+.labelUpload {
+    border-radius: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: #f5d75f;
+    color: black;
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+    padding: 4px 15px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.previewimg {
+    margin-top: 1rem;
+    height: 13rem;
+    border-radius: 1rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
