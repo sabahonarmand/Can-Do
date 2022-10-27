@@ -19,4 +19,5 @@ This web application is for time management and goal tracking.
 
 <img align="center" src="https://user-images.githubusercontent.com/59228473/198324520-92bd90cf-46dd-40ca-bc20-27b428a69d5f.jpg">
 
+<img align="center" src="https://user-images.githubusercontent.com/59228473/198325690-0d6bda1c-90db-49c6-bb4a-a56dfdfebca4.png">
 
