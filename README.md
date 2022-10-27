@@ -14,15 +14,18 @@ npm install
 cd Frontend
 cd my app
 npm install
+```
 
 ### Run
 
+```
 cd Backend
 npm start
-```
+
 cd Frontend
 cd my app
 npm start
+```
 
 
 <img align="center" src="https://user-images.githubusercontent.com/59228473/198320078-00381edd-56fc-4eeb-b649-067fec3ec8dd.jpg">
